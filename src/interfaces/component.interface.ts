@@ -10,6 +10,11 @@ export interface AnimeCardProps {
   url: string;
 }
 
+export interface ImageLoaderProps {
+  src: string;
+  alt: string;
+}
+
 export interface TagProps {
   name: string;
 }

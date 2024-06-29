@@ -25,7 +25,7 @@ export const ImageLoader: React.FC<ImageLoaderProps> = ({ src, alt }) => {
         style={loading || error ? { display: 'none' } : {}}
         onLoad={handleImageLoaded}
         onError={handleImageError}
-        className="w-24"
+        className="w-100"
       />
     </div>
   );
